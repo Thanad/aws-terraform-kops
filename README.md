@@ -1,5 +1,11 @@
 # AWS Terraform and kops
 
+## Requirements
+
+ - AWS CLI
+ - kops ~1.13.0
+ - Terraform ~0.12.0
+
 ## Setup aws credential and config region "ap-southeast-1"
 ```
 aws --profile=example configure
